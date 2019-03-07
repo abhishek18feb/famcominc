@@ -1,1 +1,12 @@
-<router-outlet></router-outlet>
+<!--The content below is only a placeholder and can be replaced.-->
+<ng-container *ngIf="login;else second">
+  <app-header></app-header>
+  <router-outlet></router-outlet>
+
+</ng-container>
+<ng-template #second>
+  <router-outlet></router-outlet>
+</ng-template>
+
+<!--
+<router-outlet></router-outlet> -->
