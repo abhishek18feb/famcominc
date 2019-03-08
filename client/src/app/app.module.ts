@@ -11,12 +11,16 @@ import { HeaderComponent } from './header/header.component';
 import { TokenInterceptorService } from './token-interceptor.service';
 import { AuthGuard } from './auth.guard';
 import { AuthService } from './auth.service';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { ResetPasswordComponent } from './reset-password/reset-password.component';
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     RegistrationComponent,
-    HeaderComponent
+    HeaderComponent,
+    ForgotPasswordComponent,
+    ResetPasswordComponent
   ],
   imports: [
     BrowserModule,
